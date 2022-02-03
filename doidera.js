@@ -1,0 +1,1 @@
+console.log(typeof null); //Null foi inventado como objeto, e não null. Um erro que é caro dmais ser consertado hj
