@@ -15,3 +15,6 @@ notas.forEach( nota => {
 let media = somaParcial/notas.length;
 
 console.log(media);
+
+
+// A DIFERENÇA ENTRE OS MÉTODOS map E forEach SÃO SEU RETORNOS! ENQUANTO O PRIMEIRO RETORNA UMA NOVA STRING, O SEGUNDO NÃO RETORNA NADA!
