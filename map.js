@@ -1,6 +1,6 @@
 const notas = [10, 9, 8, 7, 6];
 
-// Posso colocar o argumento da arrow function em parenteses ou não.
+// Posso colocar o argumento da arrow function em parenteses ou não, quando ele está SOZINHO. Caso eu use mais de um argumento, os parenteses são obrigatórios.
 // No operador ternário, o ++ não pode vir dpois na nota, pois ele vai nos devolver ela como já está no array notas e DPOIS somar um. Para que a arrowfnc devolva a nota acrescida de um, devemos usar ++nota.
 const notasAtualizadas = notas.map(nota => nota == 10 ? nota : ++nota);
 
