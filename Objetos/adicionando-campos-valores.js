@@ -12,6 +12,8 @@ meusDados.celular = "Xiaomi";
 
 console.log(meusDados);
 
-meusDados.celular = "Samsumg";
+meusDados.celular = ["Samsumg", "Xiaomi"];
 
 console.log(meusDados);
+
+// Podemos ter como valores de alguma chave um array de valores, sem problemas.
